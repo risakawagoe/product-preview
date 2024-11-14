@@ -2,6 +2,7 @@ import { OptionList } from "./option-list";
 import { ProductList } from "./product-list";
 import { Editor } from "./editor";
 import { DraggableMaskSVG } from "./test";
+import { Canvas } from "./canvas";
 
 export function ProductPreviewer() {
     
@@ -13,6 +14,7 @@ export function ProductPreviewer() {
             <ProductList />
             <OptionList />
             <Editor />
+            <Canvas />
             {/* <DraggableMaskSVG /> */}
         </div>
     );
